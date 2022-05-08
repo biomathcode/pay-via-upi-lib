@@ -1,0 +1,24 @@
+{
+  "name": "pay-via-upi-lib",
+  "version": "0.0.2",
+  "description": "Library that powers payviaupi.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratiksharm/pay-via-upi-lib.git"
+  },
+  "keywords": [
+    "upi",
+    "qrcode",
+    "payment"
+  ],
+  "author": "Pratik Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratiksharm/pay-via-upi-lib/issues"
+  },
+  "homepage": "https://github.com/pratiksharm/pay-via-upi-lib#readme"
+}

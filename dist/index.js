@@ -29,8 +29,8 @@ window.addEventListener(
     e.style.fontSize = "14px";
     e.style.display = "flex";
     e.style.position = "fixed";
-    e.style.right = "35px";
-    e.style.bottom = "35px";
+    e.style.right = "20px";
+    e.style.bottom = "20px";
     e.style.borderRadius = "5px";
     e.style.outline = "none";
     e.style.border = "none";
@@ -177,7 +177,8 @@ window.addEventListener(
         dialogbox.style.gap = "20px";
         dialogbox.style.zIndex = "1000000";
         dialogbox.style.position = "fixed";
-        dialogbox.style.top = "10%";
+        dialogbox.style.top = "5%";
+        dialogbox.style.width = "300px";
 
         var input = document.createElement("input");
         input.id = "amount-value";
