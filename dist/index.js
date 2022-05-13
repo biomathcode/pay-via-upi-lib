@@ -1191,6 +1191,7 @@ function addDialog() {
   link.style.color = "#353434";
   link.style.borderRadius = "10px";
   link.style.textDecoration = "none";
+  link.style.fontSize = "15px";
 
   let dataqrcode = QRCode.generatePNG(qrcodelink);
 
@@ -1226,8 +1227,9 @@ function addDialog() {
   dialogbox.style.gap = "20px";
   dialogbox.style.zIndex = "1000000";
   dialogbox.style.position = "fixed";
-  dialogbox.style.top = "10%";
-  dialogbox.style.width = "270px";
+  dialogbox.style.top = "6%";
+  dialogbox.style.maxWidth = "290px";
+  dialogbox.style.minWidth = "260px";
   dialogbox.style.visibility = "hidden";
   dialogbox.style.scale = "0";
   dialogbox.style.transition = "all 250ms ease-in";
